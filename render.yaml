@@ -1,9 +1,10 @@
 services:
   - type: web
-    name: linebot-api
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python api/render_main.py
+    name: linebot-api-service
+    runtime: python
+    buildCommand: pip install fastapi uvicorn pydantic
+    startCommand: uvicorn api.quick_start:app --host 0.0.0.0 --port $PORT
+    plan: free
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.0
+        value: 3.11.7
