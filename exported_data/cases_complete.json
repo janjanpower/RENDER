@@ -1,0 +1,92 @@
+[
+  {
+    "case_id": "113001",
+    "client": "張三",
+    "case_type": "民事糾紛",
+    "progress": "起訴階段",
+    "lawyer": "李律師",
+    "legal_affairs": "王法務",
+    "case_reason": "債務糾紛",
+    "case_number": "113年度民字第001號",
+    "opposing_party": "ABC公司",
+    "court": "台北地方法院",
+    "division": "民事股",
+    "progress_date": "2024-08-01",
+    "created_date": "2024-01-15",
+    "updated_date": "2024-08-06",
+    "progress_stages": {
+      "委任": "2024-01-15",
+      "起訴": "2024-02-01",
+      "審理": "2024-08-01"
+    },
+    "progress_notes": {
+      "委任": "客戶委任辦理債務糾紛案件",
+      "起訴": "已向法院提起民事訴訟",
+      "審理": "第一次開庭"
+    },
+    "progress_times": {
+      "委任": "09:00",
+      "起訴": "14:30",
+      "審理": "10:00"
+    }
+  },
+  {
+    "case_id": "113002",
+    "client": "李四",
+    "case_type": "刑事案件",
+    "progress": "偵查階段",
+    "lawyer": "王律師",
+    "legal_affairs": "陳法務",
+    "case_reason": "傷害案件",
+    "case_number": "113年度偵字第002號",
+    "opposing_party": "告訴人張某",
+    "court": "新北地方檢察署",
+    "division": "刑事股",
+    "progress_date": "2024-08-05",
+    "created_date": "2024-02-01",
+    "updated_date": "2024-08-05",
+    "progress_stages": {
+      "委任": "2024-02-01",
+      "偵查": "2024-03-01"
+    },
+    "progress_notes": {
+      "委任": "委任辦理傷害案件辯護",
+      "偵查": "檢察官偵查中"
+    },
+    "progress_times": {
+      "委任": "10:30",
+      "偵查": "15:00"
+    }
+  },
+  {
+    "case_id": "113003",
+    "client": "王五",
+    "case_type": "行政訴訟",
+    "progress": "審理中",
+    "lawyer": "陳律師",
+    "legal_affairs": "林法務",
+    "case_reason": "建築執照撤銷",
+    "case_number": "113年度訴字第003號",
+    "opposing_party": "台北市建管處",
+    "court": "台北高等行政法院",
+    "division": "行政股",
+    "progress_date": "2024-08-04",
+    "created_date": "2024-03-10",
+    "updated_date": "2024-08-04",
+    "progress_stages": {
+      "委任": "2024-03-10",
+      "起訴": "2024-04-01",
+      "審理": "2024-08-04"
+    },
+    "progress_notes": {
+      "委任": "委任辦理建築執照撤銷訴訟",
+      "起訴": "向行政法院提起撤銷訴訟",
+      "審理": "言詞辯論"
+    },
+    "progress_times": {
+      "委任": "11:00",
+      "起訴": "16:00",
+      "審理": "14:00"
+    }
+  }
+]

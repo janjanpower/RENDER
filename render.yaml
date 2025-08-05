@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: linebot-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python api/render_main.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
